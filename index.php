@@ -31,6 +31,33 @@
     $total = null;
     $total= $price * $items;
     echo "The total for you sir/ma'am is: $total <br>";
+    echo "test";
     ?>
+
+<form action="index.php" method="post">
+    <label>UserName: </label>
+    <input type="text" name="userName">
+    <br><hr>
+    <label>Password: </label>
+    <input type="password" name="password">
+    <input type="submit" value="Submit">
+</form>
+<hr><hr><hr><hr>
+<!-- <form action="index.php" method="get">
+    <label>UserName: </label>
+    <input type="text" name="userName">
+    <br><hr>
+    <label>Password: </label>
+    <input type="password" name="password">
+    <input type="submit" value="Submit">
+</form> -->
 </body>
 </html>
+<?php
+    // echo $_GET["userName"]. "<br>";
+    // echo $_GET["password"];
+?>
+<?php
+    echo $_POST["userName"]. "<br>";
+    echo $_POST["password"];
+?>
