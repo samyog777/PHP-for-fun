@@ -26,7 +26,8 @@
     $total = floor($number); // floor() => Rounds number to its lower 10's
     $total = ceil($number);  // ceil() => Rounds number to its upper 10's
     $total = sqrt($number); // sqrt() => Square a number
-    $total = pow($number1, $number2); //pow() => power of number
+    $total = pow($number1, $number2); //pow() => power of numberd ..
+    
     $total = max($number1, $number2); // max() => find maximum among numbers
     $total = min($number1, $number2); // min() => find minimum among numbers
     $total = pi(); // pi() => value of pi
