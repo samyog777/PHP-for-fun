@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: black; color: white">
     <form action="radioButton.php" method="post">
         <label for="">Username: </label> <br>
         <input type="radio" name="payment" value="visa"> Visa <br>
