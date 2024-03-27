@@ -47,5 +47,5 @@
             echo "Your email is: $email";
         }
     }
-
 ?>
+
