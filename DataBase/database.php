@@ -12,8 +12,8 @@
         echo "Cannot connect to a Database";
     }
 
-    if ($conn) {
-        echo "You are Loged in";
-    }
+    // if ($conn) {
+    //     echo "You are Loged in";
+    // }
 
 ?>
